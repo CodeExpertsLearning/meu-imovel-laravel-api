@@ -20,7 +20,7 @@ class RealState extends Model
 	public function getLinksAttribute()
 	{
 		return [
-			'href' => route('real_states.real-states.show', ['realState' => $this->id]),
+			'href' => route('real_states.real-states.show', ['real_state' => $this->id]),
 			'rel'  => 'Imóveis'
 		];
 	}
