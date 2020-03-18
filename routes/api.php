@@ -16,7 +16,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::prefix('v1')->namespacde('Api')->group(function(){
+Route::prefix('v1')->namespace('Api')->group(function(){
 
 	Route::post('login', 'Auth\\LoginJwtController@login')->name('login');
 	Route::get('logout', 'Auth\\LoginJwtController@logout')->name('logout');

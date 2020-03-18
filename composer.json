@@ -12,6 +12,7 @@
         "facade/ignition": "^2.0",
         "fideloper/proxy": "^4.0",
         "filp/whoops": "^2.7",
+        "fruitcake/laravel-cors": "^1.0",
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "tymon/jwt-auth": "^1.0.0"
